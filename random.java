@@ -4,8 +4,12 @@ import java.util.Scanner;
 
 public class random {
 
+    
+
 
     public static void main(String[] args){
+
+        Scanner scanner = new Scanner(System.in);
 
         Random random = new Random();
         int x = random.nextInt();
@@ -37,7 +41,7 @@ public class random {
 
             // Logical operators = used to connect two or more expressions
 
-            Scanner scanner = new Scanner(System.in);
+            
 
             System.out.println("You are playing a game! press q or Q to quit");
 
@@ -48,6 +52,13 @@ public class random {
             }
         }
 
+   
+
+
+
+
+
+        
     }
     
 }
