@@ -5,12 +5,17 @@ public class Arrays {
         String[] cars = { "Camaro", "Corvette", "Tesla", "BMW" };
         cars[0] = "Mustang";
 
-        for (int i = 0; i <= cars.length; i++) {
-            System.out.println(cars[i]);
+        for (int k = 0; k < cars.length; k++) {
+            System.out.println(cars[k]);
         }
 
         // 2D array
         String[][] kars = new String[3][3]; // the first bracket is for rows/no of arrays and the second bracket is for columns/no of elements.
+
+        /*String[][] kars ={{"Camaro", "Corvette","Silverado" },
+                          {"Mustang", "Ranger", "F-150"},
+                          {"Ferrari", "Lambo", "Tesla"}};
+        */
 
         kars[0][0] = "Camaro";
         kars[0][1] = "Corvette";
