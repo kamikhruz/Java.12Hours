@@ -38,6 +38,8 @@ public class printf_method {
         // 0 : numeric values are zero-padded
         // , : comma grouping separator if numbers > 1000
 
+        System.out.printf("You have this much money %,f", myDouble);
+
         System.out.println();
 
 
