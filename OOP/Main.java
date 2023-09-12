@@ -11,7 +11,21 @@ public class Main {
         System.out.println(myCar.model);
 
         myCar.brake();
-    
+
+
+        // constuctor = a method that is called when an object is instantiated/created
+        
+
+        Human human1 = new Human("Rick", 65, 70);
+        Human human2 = new Human("Morty", 16, 50);
+
+        human1.eat();
+        human2.drink();
+
+        // overloaded constructors = multiple constructors within a class with the same name, but different parameters
+
+
+        Pizza pizza = new Pizza("thicc crust", "tomato", "mozzerella", "pepperoni");
 
 
     }
