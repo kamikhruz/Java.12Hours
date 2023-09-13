@@ -36,6 +36,16 @@ public class Main2 {
 
         System.out.println(bike.speed);
 
+        // method overriding = Declaring a method in sub class,
+        // which is already present in parent class.
+        // done so that a child class can give its own implementation 
 
+        //super = keyword refers to the superclass (parent ) of an object
+        // very similar to the 'this' keyword
+
+        Hero hero1 = new Hero("Batman", 43,"$$$");
+        Hero hero2 = new Hero("Superman", 44,"everything");
+
+        System.out.println(hero2.toString());
     }
 }
