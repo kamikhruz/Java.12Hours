@@ -8,7 +8,18 @@ public class Pizza {
     String topping;
 
     Pizza(String bread, String sauce, String cheese, String topping){
-        this. bread = bread ;
+        this.bread = bread ;
+        this.sauce = sauce ;
+        this.cheese = cheese ;
+        this.topping = topping ;
+
+        
+    }
+
+    //overloaded constructor
+
+    Pizza(String bread, String sauce, String cheese){
+        this.bread = bread ;
         this.sauce = sauce ;
         this.cheese = cheese ;
         this.topping = topping ;
