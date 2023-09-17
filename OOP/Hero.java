@@ -1,4 +1,4 @@
-package OOP;
+
 
 public class Hero extends Person {
 
